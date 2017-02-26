@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+    <title>Bootstrap Template</title>
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+  </head>
+  <body>
+	  <div class="navbar navbar-inverse navbar-static-top">
+					  <div class="container">
+							<div class="navbar-header">
+								 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
+									 <span class="sr-only">Открыть</span>
+									 <span class="icon-bar"></span>
+									 <span class="icon-bar"></span>
+									 <span class="icon-bar"></span>
+									 <span class="icon-bar"></span>
+								 </button>
+								 <a href="#" class="navbar-brand">Лого</a>
+							</div>
+							<div class="collapse navbar-collapse" id="responsive-menu">
+								 <ul class="nav navbar-nav">
+									  <li><a href="#">Пункт 1</a></li>
+									  <li class="dropdown">
+									  		<a href="#" class="dropdown-toggle" data-toggle="dropdown">Пункт 2<b class="caret"></b></a>
+									  		<ul class="dropdown-menu">
+									  			<li><a href="#">Подпункт 1</a></li>
+									  			<li><a href="#">Подпункт 2</a></li>
+									  			<li><a href="#">Подпункт 3</a></li>
+									  			<li class="divider"></li>
+									  			<li><a href="#">Подпункт 4</a></li>
+									  		</ul>
+									  </li>
+									  <li><a href="#">Пункт 3</a></li>
+									  <li><a href="#">Пункт 4</a></li>
+								 </ul>          
+							</div>
+					  </div>
+				  </div>
+				  
+	  <div id="carousel" class="carousel slide">
+<!-- индикаторы слайдов 	  -->
+	  	  <ol class="carousel-indicators">
+	  	  	<li class="active" data-target="#carousel" data-slide-to="0"></li>
+	  	  	<li data-target="#carousel" data-slide-to="1"></li>
+	  	  	<li data-target="#carousel" data-slide-to="2"></li>
+	  	  </ol>
+<!--	  слайды	  -->
+	  	  <div class="carousel-inner">
+	  	     <div class="item active">
+	  	        <img src="images/photo1.jpg" alt="#">
+	  	        <div class="carousel-caption">
+	  	        	<h3>chto-to</h3>
+	  	        	<p>chto-to #2</p>
+	  	        </div>	
+	  	     </div>	
+	  	     <div class="item">
+	  	     	<img src="images/photo2.jpg" alt="#">
+	  	          <div class="carousel-caption">
+	  	        	  <h3>chto-to</h3>
+	  	        	  <p>chto-to #2</p>
+	  	          </div>	
+	  	     </div>	
+	  	     <div class="item">
+	  	     	  <img src="images/photo3.jpg" alt="#">
+	  	          <div class="carousel-caption">
+	  	        	  <h3>chto-to</h3>
+	  	        	  <p>chto-to #2</p>
+	  	          </div>	
+	  	     </div>	
+	  	  </div>
+<!--	 Стрелки переключения слайдов 	  -->
+	  	  <a href="#carousel" class="left carousel-control" data-slide="prev">
+	  	     <span class="glyphicon glyphicon-chevron-left"></span>			
+	  	  </a>
+	  	  <a href="#carousel" class="right carousel-control" data-slide="next">
+	  	     <span class="glyphicon glyphicon-chevron-right"></span>			
+	  	  </a>
+	  </div>		  
+	  
+	  <div class="conteiner">
+			<div class="row">
+				 <h1>Название страницы</h1>
+				 <p><i class="glyphicon glyphicon-heart" style="font-size: 400%;"></i></p>   		
+				 <p>
+				    <span class="fa-stack">
+				       <i class="fa fa-square-o fa-stack-2x" style="margin-left: 90px;"></i>
+				       <i class="fa fa-vk fa-stack-1x" style="margin-left: 90px;"></i>
+				    </span>
+				 </p>   		
+			</div>
+	  </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>
